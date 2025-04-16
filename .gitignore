@@ -1,0 +1,24 @@
+# Create a .gitignore file for Laravel
+echo "/node_modules
+/vendor
+/.idea
+/.vscode
+/.env
+/storage/*.key
+/public/storage
+/public/hot
+/storage/debugbar
+/bootstrap/cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env.backup
+.phpunit.result.cache
+.php_cs.cache
+.phpcs-cache
+docker-compose.override.yml
+coverage" > .gitignore
+
+# Ignore Composer's vendor directory
+echo "/vendor/" >> .gitignore
