@@ -1,4 +1,3 @@
-# Create a .gitignore file for Laravel
 echo "/node_modules
 /vendor
 /.idea
@@ -20,5 +19,4 @@ yarn-error.log
 docker-compose.override.yml
 coverage" > .gitignore
 
-# Ignore Composer's vendor directory
 echo "/vendor/" >> .gitignore
