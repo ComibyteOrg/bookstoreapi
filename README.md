@@ -111,4 +111,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 Made with ❤️ by [Oluwadimu Adedeji (Comibyte)] using Laravel
-```
