@@ -20,7 +20,7 @@ A RESTful API for managing books and authors with Laravel Sanctum authentication
 1. Clone the repository:
    ```bash
    git clone https://github.com/ComibyteOrg/bookstoreapi.git
-   cd bookstore-api
+   cd bookstoreapi
    ```
 
 2. Install dependencies:
