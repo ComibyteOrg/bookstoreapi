@@ -112,12 +112,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Made with ❤️ by [Oluwadimu Adedeji (Comibyte)] using Laravel
 ```
-
-### Key Features of This README:
-
-1. **Visual Badges** - Shows technologies used at a glance
-2. **Clear Installation** - Step-by-step setup instructions
-3. **API Documentation** - Table format for easy reference
-4. **Authentication Guide** - Shows how to get and use tokens
-5. **Development Notes** - Helpful commands for contributors
-6. **Responsive Formatting** - Looks good on GitHub and mobile
