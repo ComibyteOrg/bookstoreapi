@@ -1,3 +1,47 @@
+### Bookstore API WITH Laravel 
+
+A RESTful API for managing books and authors with Laravel Sanctum authentication.
+
+## Features
+
+- JWT Authentication
+- CRUD operations for Books and Authors
+- Admin authorization
+- Pagination and filtering
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/bookstore-api.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   composer install
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+3. Configure database in `.env`:
+   ```env
+   DB_DATABASE=bookstore
+   DB_USERNAME=root
+   DB_PASSWORD=
+   ```
+
+4. Run migrations:
+   ```bash
+   php artisan migrate --seed
+   ```
+
+## API Documentation
+
+See [Postman Collection](docs/API.postman_collection.json) for endpoints.
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -32,6 +76,9 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+
+
+
 
 ### Premium Partners
 
